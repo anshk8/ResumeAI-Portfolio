@@ -93,6 +93,8 @@ export async function POST(req) {
         const result = await getResponse(message, match || "No match found.");
         return NextResponse.json({ result }, { status: 200 });
     } catch (error) {
-        return NextResponse.json({ "Sorry, please ask me once again as something went wrong. If there are nonstop issues, please let Ansh know so he can fix it!" }, { status: 200 });
+
+        const errorMessage =  "Sorry, please ask me once again as something went wrong. If there are nonstop issues, please let Ansh know so he can fix it!"
+        return NextResponse.json({errorMessage }, { status: 200 });
     }
 }
