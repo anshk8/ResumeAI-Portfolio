@@ -1,0 +1,69 @@
+/******* FOoter *******/
+/* Footer.css */
+.footer {
+    padding: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    background-color: #1a1a40;
+    color: #00bfff;
+    font-size: 1rem;
+    text-align: center;
+    border-top: 2px solid #00bfff;
+    box-shadow: 0 -3px 8px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin: 0;
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 5px #00bfff, 0 0 10px #00bfff, 0 0 20px #00bfff;
+    }
+    to {
+      text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff, 0 0 30px #00bfff;
+    }
+  }
+  
+  /******* Loading Effect / Dots ****/
+  /* LoadingDots.css */
+  .loading-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #00bfff; /* Change to your preferred color */
+    animation: loading 1.2s infinite ease-in-out;
+  }
+  
+  .dot:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .dot:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .dot:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  
+  @keyframes loading {
+    0%, 80%, 100% {
+      transform: scale(1);
+    }
+    40% {
+      transform: scale(1.5);
+    }
+  }
