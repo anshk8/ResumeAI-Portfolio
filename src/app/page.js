@@ -12,9 +12,9 @@ export default function Home() {
     <div className="App">
          <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Your Site Title</title>
-        <meta name="description" content="A brief description of your site." />
-        {/* Add other meta tags as needed */}
+        
+        
+
       </Head>
     <NavBar />
 
