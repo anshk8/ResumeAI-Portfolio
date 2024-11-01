@@ -57,7 +57,7 @@ const ChatBox = () => {
   return (
     <div className="chatbot-container">
       <div className="chatbot-header">
-        <p className="sub-heading">Ansh's Interactive Portfolio Website. Chat with me!</p>
+        <p className="sub-heading">Ansh&apos;s Interactive Portfolio Website. Chat with me!</p>
       </div>
 
       {/* Response Display and Loading screen if loading */}

@@ -9,7 +9,7 @@ const MovingText = () => {
     <div className = "animateType">
 
     
-          "Ask about my education"
+          Ask about my education
             
   
 
