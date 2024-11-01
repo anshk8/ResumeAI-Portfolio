@@ -117,5 +117,77 @@
   }
   
   
+
+/**** Responsive Design *****/
+
+@media (max-width: 768px) {
+
   
+  
+
+
+  .chatbot-container {
+
+    width: 70%;
+    
+  }
+
+  .chatbot-conversation-container {
+    height: 300px;
+    padding: 10px;
+ 
+  }
+
+  .submit-btn {
+    padding: 8px 15px;
+  }
+
+  #user-input {
+    padding: 8px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  
+
+  span{
+    font-size: 18px;
+  }
+
+ 
+
+  .chatbot-header {
+    font-size: 1.5rem;
+  }
+
+  .chatbot-container {
+    padding: 15px;
+    width: 70%;
+    margin-top: 40px;
+  }
+
+  .chatbot-conversation-container {
+    height: 300px;
+  }
+
+  .chatbot-header p{
+    font-size: 14px;
+  }
+
+  .submit-btn {
+    padding: 6px 10px;
+  }
+
+  #user-input {
+    font-size: 14px;
+  }
+
+ 
+}
+
+
+
+
   
