@@ -194,6 +194,37 @@
 }
 
 
+@media (max-height: 700px) {
+
+  .chatbot-container {
+
+    width: 70%;
+    margin: 0;
+    margin-bottom: -50px;
+    height: 48%;
+  
+  
+    
+  }
+
+
+  .submit-btn {
+    padding: 8px 15px;
+  }
+
+  .message{
+    font-size: 12px;
+  }
+  .chatbot-conversation-container p{
+    
+  
+   font-size: 11px;
+  }
+
+  
+}
+
+
 
 
   

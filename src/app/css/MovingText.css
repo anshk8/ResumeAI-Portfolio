@@ -8,3 +8,12 @@
 
 }
 
+@media (max-height: 700px) {
+  .animateType {
+      font-size: 0.5rem;
+  }
+
+  Typewriter{
+    font-size: 0.5rem;
+  }
+}
