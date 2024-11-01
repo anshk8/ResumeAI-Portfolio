@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="App">
     <NavBar />
-   <MovingText />
+
    <ChatBox />
    <Footer />
  </div>

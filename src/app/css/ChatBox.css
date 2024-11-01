@@ -129,6 +129,8 @@
   .chatbot-container {
 
     width: 70%;
+    margin: 0;
+  
     
   }
 
@@ -165,7 +167,7 @@
   .chatbot-container {
     padding: 15px;
     width: 70%;
-    margin-top: 40px;
+
   }
 
   .chatbot-conversation-container {
