@@ -11,8 +11,7 @@ const MovingText = () => {
     
           "Ask about my education"
             
-       
-
+  
 
     </div>
   )
