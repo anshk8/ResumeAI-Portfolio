@@ -1,24 +1,20 @@
 /******** ChatBox Stuff ******** */
 .chatbot-container{
-    /* width: 80%;
-    margin: 0;
-    margin-top: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
+    
   
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 600px;
+    max-width: 40%;
     margin: 0 auto;
     background: #f9f9f9;
-    padding: 20px;
+    height: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    margin-top: 40px;
+    margin-top: 2em;
+    padding: 1em;
+    min-width: 50%;
   
   }
   
@@ -26,22 +22,21 @@
     
   
     width: 100%;
-    height: 400px;
+    height: 80%;
     overflow-y: auto;
-    
+
     background: #ffffff;
-    padding: 15px;
+  
     border-radius: 10px;
     border: 1px solid #ccc;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 15px;
-    padding-bottom: 20px;
+   
   }
   
   .chatbot-header{
     /* margin: 20px; */
     font-weight: bold;
-    margin-bottom: 10px;
+ 
   
   
   }
@@ -49,7 +44,7 @@
   #insert {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+   
   }
   
   /* Styling for individual messages */
@@ -57,11 +52,11 @@
     display: inline-block;
     background-color: #e0e0e0;
     color: #333;
-    padding: 10px 15px;
+    padding: 1rem;
     border-radius: 15px;
-    font-size: 16px;
+    font-size: 1rem;
     max-width: 75%;
-    position: relative;
+    margin: 0.5rem;
     opacity: 0;
     animation: fadeIn 0.5s forwards;
   }
@@ -91,20 +86,21 @@
   .chatbot-input-container {
     display: flex;
     width: 100%;
-    gap: 10px;
+    height: 10%;
+
   }
   
   #user-input {
     flex-grow: 1;
-    padding: 10px;
-    font-size: 16px;
+    
+    font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 8px;
   }
   
   .submit-btn {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 1rem;
     background-color: #333;
     color: #fff;
     border: none;
@@ -128,9 +124,10 @@
 
   .chatbot-container {
 
-    width: 70%;
+   
     margin: 0;
     margin-bottom: -50px;
+    min-width:80%;
   
   
     
