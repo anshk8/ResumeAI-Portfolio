@@ -1,23 +1,23 @@
 /******* FOoter *******/
 /* Footer.css */
 .footer {
-    padding: 0;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    
+    padding-top: 2rem;
+    height: 20vh;
+    margin-top: 2em;
     background-color: #1a1a40;
     color: #00bfff;
     font-size: 1rem;
     text-align: center;
     border-top: 2px solid #00bfff;
     box-shadow: 0 -3px 8px rgba(0, 0, 0, 0.5);
-    margin: 0;
-    margin-top: 40px;
+    align-items: center;
+
+
     width: 100%;
   }
   
   .footer p {
-    margin: 0;
+
     animation: glow 2s ease-in-out infinite alternate;
   }
   
@@ -37,13 +37,12 @@
  
 
   .footer {
-    padding: 20px;
-    position: relative;
+    
  
   }
 
   .footer p {
-    font-size: 0.9rem;
+    
   }
 }
 
@@ -53,13 +52,11 @@
 
 
   .footer {
-    padding: 20px;
-    height: auto;
-    position: relative;
+   
   }
 
   .footer p {
-    font-size: 0.8rem;
+   
   }
 }
 
