@@ -1,7 +1,6 @@
 /*********** Title ***********/
 
 .chat-header {
-  margin-bottom: 2rem;
   text-align: center;
   animation: fade-in 0.6s ease-out;
 }
@@ -10,8 +9,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.75rem;
-  margin-bottom: 0.75rem;
 }
 
 .chat-bot-icon {

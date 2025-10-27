@@ -55,16 +55,12 @@ const ChatBox = () => {
 
   return (
     <div className="chat-interface-container">
-      <div className="chatbot-header">
-        <p className="sub-heading">
-          Ansh&apos;s Interactive Portfolio Website. Chat with me!
-        </p>
-      </div>
+     
 
       <div className="chat-messages-container">
         {/* Response Display and Loading screen if loading */}
-        <div className="chat-message-wrapper bot">
-          <div className="chat-message-bubble bot">
+       
+          <div className="chat-message-bubble">
             {loading ? (
               <div className="typing-indicator">
               <span className="typing-dot" />
@@ -75,7 +71,7 @@ const ChatBox = () => {
               <p className="chat-message-text">{response}</p>
             )}
           </div>
-        </div>
+   
       </div>
 
       <div className="chat-input-wrapper">
