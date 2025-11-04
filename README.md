@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Portfolio Chatbot
 
-## Getting Started
+An interactive portfolio website powered by RAG (Retrieval-Augmented Generation) that allows visitors to chat with an AI version of me to learn about my experience, skills, and projects.
 
-First, run the development server:
+🌐 **Live Demo**: [anshkakkar.dev](https://anshkakkar.dev)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 How It Works
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project uses a **RAG (Retrieval-Augmented Generation)** architecture:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. **Embedding Creation**: Resume content is converted into vector embeddings using OpenAI's `text-embedding-ada-002` model
+2. **Vector Storage**: Embeddings are stored in Supabase's pgvector database for efficient similarity search
+3. **Semantic Search**: When a user asks a question, it's converted to an embedding and matched against the stored vectors
+4. **Context Retrieval**: The most relevant resume information is retrieved based on semantic similarity
+5. **AI Response**: OpenAI's GPT-4 generates natural, conversational responses using the retrieved context
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This approach ensures accurate, contextual responses while preventing hallucinations by grounding answers in actual resume content.
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Frontend**: Next.js 15, React
+- **Styling**: Custom CSS with modern gradients and animations
+- **AI/ML**: OpenAI API (GPT-4 & Embeddings)
+- **Database**: Supabase (PostgreSQL + pgvector)
+- **Deployment**: Vercel
